@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<warning>
+    This is a master file to apply davydova-split XSLT, the source files must be in the "volumes" sub-directory. 
+    The result files will be created in the parent directory of this file.
+</warning>

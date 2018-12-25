@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<import author="alexey"
+        date="2016-08-16"
+        desc="&lt;pre&gt;&lt;br/&gt;- DAVYDOVAFR&lt;br/&gt;- alexey&lt;br/&gt;- 2016-08-16&lt;/pre&gt;"
+        name="DAVYDOVACHRON-FR"
+        rootDir="/home/alavrent/Documents/Mes documents/Projets/NSU - Journaux bilingues/corpus/davydovachron-fr"
+        script="xtzLoader.groovy"
+        version="0.7.8">
+   <linkGrp type="align"/>
+   <corpora>
+      <corpus annotate="true"
+              cqpid="DAVYDOVACHRON-FR1535520847205"
+              desc="&lt;pre&gt;&lt;br/&gt;- DAVYDOVAFR&lt;br/&gt;- alexey&lt;br/&gt;- 2016-08-16&lt;/pre&gt;"
+              encoding="UTF-8"
+              font=""
+              lang="fr"
+              name="DAVYDOVACHRON-FR">
+         <tokenizer onlyThoseTests="false" skip="false">
+            <param name="whitespaces">[\p{Z}\p{C}]+</param>
+            <param name="regPunct">[\p{Ps}\p{Pe}\p{Pi}\p{Pf}\p{Po}\p{S}]</param>
+            <param name="punct_strong">[.!?]+|\.\.|\.\.\.|…|\|</param>
+            <param name="regElision">['‘’]</param>
+         </tokenizer>
+         <xslt xsl=""/>
+         <pattributes/>
+         <sattributes/>
+         <biblios/>
+         <uis>
+            <ui command="textualplans">
+               <word>w</word>
+               <outsidetexttags type="list"/>
+               <outside_text_tags_and_ignore_content type="list">teiHeader,note</outside_text_tags_and_ignore_content>
+               <milestones/>
+               <outside_text_tags_and_keep_content type="list">teiHeader,head</outside_text_tags_and_keep_content>
+               <note type="list">note</note>
+            </ui>
+            <ui command="concordance">
+               <context_limits type="list">text</context_limits>
+            </ui>
+         </uis>
+         <editions default="default">
+       	    <edition build_edition="true"
+                     mode="groovy"
+                     name="default"
+                     page_break_tag="pb"
+                     script="pager.groovy"
+                     words_per_page="999999"/>
+            <edition build_edition="true"
+                     images_directory=""
+                     index="."
+                     mode="groovy"
+                     name="facs"
+                     page_break_tag="pb"
+                     script="*.groovy"
+                     type="html"
+                     words_per_page="500"/>
+         </editions>
+         <texts/>
+         <queries/>
+         <knowledgeRepositories/>
+         <preBuild/>
+         <parameters>
+            <param key="clean.directories" value="true"/>
+         </parameters>
+      </corpus>
+   </corpora>
+</import>

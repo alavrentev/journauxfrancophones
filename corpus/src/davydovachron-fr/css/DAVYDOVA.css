@@ -1,0 +1,95 @@
+
+
+.DAVYDOVA .editionpage {
+    font-size:small;
+    font-style:normal;
+    font-weight:normal;
+    color:gray;
+    display:block;
+    text-align:center;
+}
+
+.DAVYDOVA .sic {
+    background-color:yellow;
+}
+.DAVYDOVA .add {
+    background-color:cyan;
+}
+.DAVYDOVA .del {
+    background-color:cyan;
+    color:red;
+    text-decoration:line-through;
+}
+.DAVYDOVA .date {
+    color:red;
+}
+.DAVYDOVA .hi-sup, .DAVYDOVA .hi-superscript {
+    vertical-align: super;
+    font-size:smaller;
+}
+.DAVYDOVA .hi-superscript-underline {
+    vertical-align: super;
+    font-size:smaller;
+    text-decoration:underline;
+}
+.DAVYDOVA .hi-u, .DAVYDOVA .hi-underline {
+    text-decoration:underline;
+}
+
+.DAVYDOVA .P-Intertitre {
+    display:block;
+    text-align:center;
+    font-weight:bold;
+    font-size:115%;
+}
+
+.DAVYDOVA .persName {
+    color:blue;
+}
+.DAVYDOVA .placeName {
+    color:green;
+}
+.DAVYDOVA .foreign {
+    color:brown;
+}
+
+
+/* Notes*/
+
+.DAVYDOVA .footnotes {
+    display:block;
+    border-top-style:solid;
+    border-top-width:1px;
+    border-top-color:gray;
+    padding-top:5px
+}
+
+.DAVYDOVA .notes_au, .notes_tr, .notes_gen {
+    display:block;
+    padding-bottom:0.5em;
+}
+
+.DAVYDOVA .note {
+    display:block;
+    left:1.5em;
+    position:relative;
+    font-size:80%;
+}
+
+.DAVYDOVA .notemark {
+    display:inline-block;
+    position:absolute;
+    left:-1.5em;
+    width:1em;
+    text-align:right;
+}
+
+.DAVYDOVA .notemark a {
+    text-decoration:none;
+}
+
+.DAVYDOVA .p-note {
+    color:gray;
+    font-size:80%;
+    text-align:center;
+}

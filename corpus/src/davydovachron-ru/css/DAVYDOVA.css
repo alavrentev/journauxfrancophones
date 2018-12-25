@@ -1,0 +1,81 @@
+
+
+.editionpage {
+    font-size:small;
+    font-style:normal;
+    font-weight:normal;
+    color:gray;
+    display:block;
+    text-align:center;
+}
+
+.sic {
+    background-color:yellow;
+}
+.add {
+    background-color:cyan;
+}
+.del {
+    background-color:cyan;
+    text-decoration:line-through;
+}
+.date {
+    color:red;
+}
+.hi-sup, .hi-superscript {
+    vertical-align: super;
+    font-size:smaller;
+}
+.hi-superscript-underline {
+    vertical-align: super;
+    font-size:smaller;
+    text-decoration:underline;
+}
+.hi-u, .hi-underline {
+    text-decoration:underline;
+}
+
+.persName {
+    color:blue;
+}
+.placeName {
+    color:green;
+}
+.foreign {
+    color:brown;
+}
+
+
+/* Notes*/
+
+.footnotes {
+    display:block;
+    border-top-style:solid;
+    border-top-width:1px;
+    border-top-color:gray;
+    padding-top:5px
+}
+
+.notes_au, .notes_tr, .notes_gen {
+    display:block;
+    padding-bottom:0.5em;
+}
+
+.note {
+    display:block;
+    left:1.5em;
+    position:relative;
+    font-size:80%;
+}
+
+.notemark {
+    display:inline-block;
+    position:absolute;
+    left:-1.5em;
+    width:1em;
+    text-align:right;
+}
+
+.notemark a {
+    text-decoration:none;
+}
